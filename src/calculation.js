@@ -29,15 +29,15 @@ const calculateNewTime = startTime => {
   return `${newHour}:${newMinute}`;
 };
 // most of these are for testing purposes
-// export {
-//   getHour,
-//   getMinute,
-//   isSingleDigit,
-//   addPrefixDigit,
-//   nextHourNumber,
-//   nextMinuteNumber,
-//   nextHour,
-//   nextMinute,
-//   calculateNewTime
-// };
-export { calculateNewTime };
+export {
+  getHour,
+  getMinute,
+  isSingleDigit,
+  addPrefixDigit,
+  nextHourNumber,
+  nextMinuteNumber,
+  nextHour,
+  nextMinute,
+  calculateNewTime
+};
+
